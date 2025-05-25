@@ -72,8 +72,26 @@
         <mxCell id="aFEqiTyNvZreS5R_LPJA-2" value="9. PERIPHERAL SENSOR SYSTEM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="m4ZO5GO4-T3lixzv__rx-6">
           <mxGeometry x="190" y="40" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="aFEqiTyNvZreS5R_LPJA-16" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="m4ZO5GO4-T3lixzv__rx-6" target="m4ZO5GO4-T3lixzv__rx-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="220" as="sourcePoint" />
+            <mxPoint x="120" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aFEqiTyNvZreS5R_LPJA-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="m4ZO5GO4-T3lixzv__rx-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="216" y="130" as="sourcePoint" />
+            <mxPoint x="246" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aFEqiTyNvZreS5R_LPJA-18" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="m4ZO5GO4-T3lixzv__rx-6" target="m4ZO5GO4-T3lixzv__rx-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="190" as="sourcePoint" />
+            <mxPoint x="296" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="m4ZO5GO4-T3lixzv__rx-12" value="CHANNEL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="m4ZO5GO4-T3lixzv__rx-2" vertex="1">
-          <mxGeometry x="320" y="250" width="80" height="30" as="geometry" />
+          <mxGeometry x="325" y="230" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aFEqiTyNvZreS5R_LPJA-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="m4ZO5GO4-T3lixzv__rx-2" target="m4ZO5GO4-T3lixzv__rx-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -83,6 +101,30 @@
         </mxCell>
         <mxCell id="aFEqiTyNvZreS5R_LPJA-10" value="1. Interface between Transmitter &amp;amp; Receiver" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="m4ZO5GO4-T3lixzv__rx-2">
           <mxGeometry x="300" y="290" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aFEqiTyNvZreS5R_LPJA-14" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="m4ZO5GO4-T3lixzv__rx-2" target="m4ZO5GO4-T3lixzv__rx-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="264.5" as="sourcePoint" />
+            <mxPoint x="426" y="264.72" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="376" y="265" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aFEqiTyNvZreS5R_LPJA-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="24" y="540" as="sourcePoint" />
+            <mxPoint x="80" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aFEqiTyNvZreS5R_LPJA-19" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="24" y="560" as="sourcePoint" />
+            <mxPoint x="84" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aFEqiTyNvZreS5R_LPJA-20" value="Power&lt;div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Data&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="90" y="530" width="60" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
