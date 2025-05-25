@@ -14,7 +14,7 @@
           <mxGeometry x="140" y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m4ZO5GO4-T3lixzv__rx-21" value="8. MOUNT SYSTEM" style="rounded=0;whiteSpace=wrap;html=1;" parent="m4ZO5GO4-T3lixzv__rx-5" vertex="1">
-          <mxGeometry x="140" y="270" width="120" height="60" as="geometry" />
+          <mxGeometry x="56" y="320" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m4ZO5GO4-T3lixzv__rx-6" value="&quot;FOLLOW ME&quot; ROBOT (SLAVE)&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;" parent="m4ZO5GO4-T3lixzv__rx-2" vertex="1">
           <mxGeometry x="450" y="30" width="320" height="470" as="geometry" />
