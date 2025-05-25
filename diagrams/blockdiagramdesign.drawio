@@ -5,33 +5,30 @@
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="m4ZO5GO4-T3lixzv__rx-2" value="SHOPPING CENTER" style="swimlane;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="20" y="20" width="780" height="660" as="geometry" />
+          <mxGeometry x="24" y="10" width="780" height="510" as="geometry" />
         </mxCell>
         <mxCell id="m4ZO5GO4-T3lixzv__rx-5" value="MASTER" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="m4ZO5GO4-T3lixzv__rx-2" vertex="1">
-          <mxGeometry x="10" y="30" width="260" height="620" as="geometry" />
+          <mxGeometry x="10" y="30" width="260" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="m4ZO5GO4-T3lixzv__rx-13" value="TRANSMITTER" style="rounded=0;whiteSpace=wrap;html=1;" parent="m4ZO5GO4-T3lixzv__rx-5" vertex="1">
+        <mxCell id="m4ZO5GO4-T3lixzv__rx-13" value="2. TRANSMITTER" style="rounded=0;whiteSpace=wrap;html=1;" parent="m4ZO5GO4-T3lixzv__rx-5" vertex="1">
           <mxGeometry x="140" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="m4ZO5GO4-T3lixzv__rx-21" value="MOUNT SYSTEM" style="rounded=0;whiteSpace=wrap;html=1;" parent="m4ZO5GO4-T3lixzv__rx-5" vertex="1">
+        <mxCell id="m4ZO5GO4-T3lixzv__rx-21" value="8. MOUNT SYSTEM" style="rounded=0;whiteSpace=wrap;html=1;" parent="m4ZO5GO4-T3lixzv__rx-5" vertex="1">
           <mxGeometry x="140" y="270" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="m4ZO5GO4-T3lixzv__rx-22" value="INDICATER" style="rounded=0;whiteSpace=wrap;html=1;" parent="m4ZO5GO4-T3lixzv__rx-5" vertex="1">
-          <mxGeometry x="130" y="40" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="m4ZO5GO4-T3lixzv__rx-6" value="&quot;FOLLOW ME&quot; ROBOT (SLAVE)&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;" parent="m4ZO5GO4-T3lixzv__rx-2" vertex="1">
-          <mxGeometry x="450" y="30" width="320" height="620" as="geometry" />
+          <mxGeometry x="450" y="30" width="320" height="470" as="geometry" />
         </mxCell>
         <mxCell id="m4ZO5GO4-T3lixzv__rx-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="m4ZO5GO4-T3lixzv__rx-6" source="m4ZO5GO4-T3lixzv__rx-11" target="m4ZO5GO4-T3lixzv__rx-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m4ZO5GO4-T3lixzv__rx-11" value="RECEIVER&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="m4ZO5GO4-T3lixzv__rx-6" vertex="1">
+        <mxCell id="m4ZO5GO4-T3lixzv__rx-11" value="3. RECEIVER&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="m4ZO5GO4-T3lixzv__rx-6" vertex="1">
           <mxGeometry y="220" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aFEqiTyNvZreS5R_LPJA-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="m4ZO5GO4-T3lixzv__rx-6" source="m4ZO5GO4-T3lixzv__rx-14" target="m4ZO5GO4-T3lixzv__rx-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="m4ZO5GO4-T3lixzv__rx-14" value="CONTROL" style="rounded=0;whiteSpace=wrap;html=1;" parent="m4ZO5GO4-T3lixzv__rx-6" vertex="1">
+        <mxCell id="m4ZO5GO4-T3lixzv__rx-14" value="4. CONTROL" style="rounded=0;whiteSpace=wrap;html=1;" parent="m4ZO5GO4-T3lixzv__rx-6" vertex="1">
           <mxGeometry x="110" y="130" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m4ZO5GO4-T3lixzv__rx-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="m4ZO5GO4-T3lixzv__rx-6" source="m4ZO5GO4-T3lixzv__rx-17" edge="1">
@@ -42,12 +39,14 @@
         <mxCell id="aFEqiTyNvZreS5R_LPJA-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="m4ZO5GO4-T3lixzv__rx-6" source="m4ZO5GO4-T3lixzv__rx-17" target="m4ZO5GO4-T3lixzv__rx-20">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="310" y="40" />
-              <mxPoint x="310" y="530" />
+              <mxPoint x="140" y="30" />
+              <mxPoint x="316" y="30" />
+              <mxPoint x="316" y="450" />
+              <mxPoint x="60" y="450" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="m4ZO5GO4-T3lixzv__rx-17" value="POWER SYSTEM" style="rounded=0;whiteSpace=wrap;html=1;" parent="m4ZO5GO4-T3lixzv__rx-6" vertex="1">
+        <mxCell id="m4ZO5GO4-T3lixzv__rx-17" value="5. POWER SYSTEM" style="rounded=0;whiteSpace=wrap;html=1;" parent="m4ZO5GO4-T3lixzv__rx-6" vertex="1">
           <mxGeometry x="20" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m4ZO5GO4-T3lixzv__rx-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.147;entryY=0.053;entryDx=0;entryDy=0;entryPerimeter=0;" parent="m4ZO5GO4-T3lixzv__rx-6" source="m4ZO5GO4-T3lixzv__rx-17" target="m4ZO5GO4-T3lixzv__rx-11" edge="1">
@@ -58,23 +57,32 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="m4ZO5GO4-T3lixzv__rx-20" value="PLATFORM" style="rounded=0;whiteSpace=wrap;html=1;" parent="m4ZO5GO4-T3lixzv__rx-6" vertex="1">
-          <mxGeometry x="120" y="500" width="120" height="60" as="geometry" />
+        <mxCell id="m4ZO5GO4-T3lixzv__rx-20" value="7. PLATFORM" style="rounded=0;whiteSpace=wrap;html=1;" parent="m4ZO5GO4-T3lixzv__rx-6" vertex="1">
+          <mxGeometry y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="m4ZO5GO4-T3lixzv__rx-23" value="MOUNT SYSTEM" style="rounded=0;whiteSpace=wrap;html=1;" parent="m4ZO5GO4-T3lixzv__rx-6" vertex="1">
+        <mxCell id="m4ZO5GO4-T3lixzv__rx-23" value="&amp;nbsp;8. MOUNT SYSTEM" style="rounded=0;whiteSpace=wrap;html=1;" parent="m4ZO5GO4-T3lixzv__rx-6" vertex="1">
           <mxGeometry y="280" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="m4ZO5GO4-T3lixzv__rx-24" value="DRIVE SYSTEM" style="rounded=0;whiteSpace=wrap;html=1;" parent="m4ZO5GO4-T3lixzv__rx-6" vertex="1">
+        <mxCell id="m4ZO5GO4-T3lixzv__rx-24" value="6. DRIVE SYSTEM" style="rounded=0;whiteSpace=wrap;html=1;" parent="m4ZO5GO4-T3lixzv__rx-6" vertex="1">
           <mxGeometry x="180" y="220" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="m4ZO5GO4-T3lixzv__rx-10" value="" style="endArrow=classic;html=1;rounded=0;" parent="m4ZO5GO4-T3lixzv__rx-2" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="270" y="280" as="sourcePoint" />
-            <mxPoint x="450" y="280" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="aFEqiTyNvZreS5R_LPJA-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="m4ZO5GO4-T3lixzv__rx-6" source="aFEqiTyNvZreS5R_LPJA-2" target="m4ZO5GO4-T3lixzv__rx-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aFEqiTyNvZreS5R_LPJA-2" value="9. PERIPHERAL SENSOR SYSTEM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="m4ZO5GO4-T3lixzv__rx-6">
+          <mxGeometry x="190" y="40" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="m4ZO5GO4-T3lixzv__rx-12" value="CHANNEL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="m4ZO5GO4-T3lixzv__rx-2" vertex="1">
           <mxGeometry x="320" y="250" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aFEqiTyNvZreS5R_LPJA-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="m4ZO5GO4-T3lixzv__rx-2" target="m4ZO5GO4-T3lixzv__rx-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="280" as="sourcePoint" />
+            <mxPoint x="360" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aFEqiTyNvZreS5R_LPJA-10" value="1. Interface between Transmitter &amp;amp; Receiver" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="m4ZO5GO4-T3lixzv__rx-2">
+          <mxGeometry x="300" y="290" width="130" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
