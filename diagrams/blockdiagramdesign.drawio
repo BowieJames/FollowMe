@@ -130,12 +130,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Jqt1G8l4uNWQVp_tb_sp" name="Page-2">
-    <mxGraphModel dx="786" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1636" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="t4mXMo3u7TvbZJGJzRXQ-1" value="1. Interface between Transmitter &amp;amp; Receiver" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="30" width="130" height="60" as="geometry" />
+          <mxGeometry x="330" y="20" width="130" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t4mXMo3u7TvbZJGJzRXQ-2" value="Transmitter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="110" y="240" width="120" height="60" as="geometry" />
@@ -184,6 +184,9 @@
         </mxCell>
         <mxCell id="t4mXMo3u7TvbZJGJzRXQ-21" value="Relative position &amp;amp; distance&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t4mXMo3u7TvbZJGJzRXQ-22" value="&lt;ul data-pm-slice=&quot;3 3 []&quot; dir=&quot;ltr&quot; data-tight=&quot;true&quot; class=&quot;tight&quot;&gt;&lt;li&gt;&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;UWB Transmitter&lt;/strong&gt;: Emits periodic UWB pulses (e.g., every 20 ms) to all receivers.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;Receivers (1 to N)&lt;/strong&gt;: Each receiver captures pulses, calculates ToF/TDoA, and computes distance. Receivers are synchronized via a clock sync mechanism (e.g., shared clock or network protocol).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p dir=&quot;ltr&quot;&gt;&lt;strong style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Central Processor&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: Runs trilateration/multilateration algorithms to compute the transmitter’s position and outputs continuous updates to an application (e.g., via MQTT or a display).&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="10" width="330" height="170" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
