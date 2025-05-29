@@ -1,9 +1,126 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.0.9">
   <diagram name="Page-1" id="sMqCAqLALSPTstq_CGC4">
-    <mxGraphModel>
+    <mxGraphModel dx="1723" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="4vdResp-VJMclIea1kM8-2" value="Build a cargo robot that follows a person" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4vdResp-VJMclIea1kM8-3" target="4vdResp-VJMclIea1kM8-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4vdResp-VJMclIea1kM8-3" target="4vdResp-VJMclIea1kM8-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-3" value="Locate the person" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4vdResp-VJMclIea1kM8-4" target="4vdResp-VJMclIea1kM8-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4vdResp-VJMclIea1kM8-4" target="4vdResp-VJMclIea1kM8-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-4" value="Move the robot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4vdResp-VJMclIea1kM8-5" target="4vdResp-VJMclIea1kM8-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4vdResp-VJMclIea1kM8-5" target="4vdResp-VJMclIea1kM8-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4vdResp-VJMclIea1kM8-5" target="4vdResp-VJMclIea1kM8-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-5" value="Avoid obstacles" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4vdResp-VJMclIea1kM8-6" target="4vdResp-VJMclIea1kM8-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-6" value="serial communnication between esp and uwb" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="572.5" width="130" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4vdResp-VJMclIea1kM8-7" target="4vdResp-VJMclIea1kM8-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-7" value="physical placement of tags" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="572.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4vdResp-VJMclIea1kM8-9" target="4vdResp-VJMclIea1kM8-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-9" value="Develop the API to return location" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="572.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4vdResp-VJMclIea1kM8-11" target="4vdResp-VJMclIea1kM8-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-11" value="Arrange ultrasonic sensors around the robot" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-13" value="Sweep the ultrasonic modules to generate a radar map of close by obstacles" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4vdResp-VJMclIea1kM8-15" target="4vdResp-VJMclIea1kM8-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-15" value="Generate Depth Maps (Depth-Anything-V2)" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4vdResp-VJMclIea1kM8-17" target="4vdResp-VJMclIea1kM8-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-17" value="Generate object bounding boxes (Yolo v4)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4vdResp-VJMclIea1kM8-18" target="4vdResp-VJMclIea1kM8-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-18" value="Develop drive train&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="572.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4vdResp-VJMclIea1kM8-20" target="4vdResp-VJMclIea1kM8-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-20" value="Develop steering system" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="4vdResp-VJMclIea1kM8-3" target="4vdResp-VJMclIea1kM8-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-24" value="Consider weight required to carry, test motors accordingly" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="140" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-26" value="Design gears and 3D print.&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-28" value="Attach tags in a triangular formation spaced evenly" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-30" value="Send calculated vector to motor controller circuitry" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-335" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-32" value="Do the maths to determine motor velocities" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.572;entryY=0.079;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4vdResp-VJMclIea1kM8-3" target="4vdResp-VJMclIea1kM8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.417;entryY=0.043;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4vdResp-VJMclIea1kM8-2" target="4vdResp-VJMclIea1kM8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.7;entryY=0.074;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4vdResp-VJMclIea1kM8-2" target="4vdResp-VJMclIea1kM8-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.428;entryY=-0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4vdResp-VJMclIea1kM8-2" target="4vdResp-VJMclIea1kM8-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4vdResp-VJMclIea1kM8-42" value="Return via serial port the probability that there is an obstacle in the way" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
