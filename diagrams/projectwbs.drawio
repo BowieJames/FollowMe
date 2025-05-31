@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.1">
   <diagram name="Page-1" id="sMqCAqLALSPTstq_CGC4">
-    <mxGraphModel dx="1973" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1833" dy="621" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -153,18 +153,21 @@
           <mxGeometry y="70" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hAxj5La1zIxjFtSovUvo-65" value="Scoping" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-790" y="630" width="120" height="210" as="geometry">
+          <mxGeometry x="-790" y="630" width="120" height="290" as="geometry">
             <mxRectangle x="-790" y="310" width="60" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="hAxj5La1zIxjFtSovUvo-66" value="&lt;div&gt;Determine budget, time and resources available&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="hAxj5La1zIxjFtSovUvo-65" vertex="1">
+        <mxCell id="hAxj5La1zIxjFtSovUvo-66" value="&lt;div&gt;Define project timeline and milestones&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="hAxj5La1zIxjFtSovUvo-65" vertex="1">
           <mxGeometry y="30" width="120" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="E_OrtaTvKkCYNUyAw0r2-9" value="&lt;div&gt;Determine budget, time and resources available&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="hAxj5La1zIxjFtSovUvo-65">
+          <mxGeometry y="100" width="120" height="70" as="geometry" />
+        </mxCell>
         <mxCell id="hAxj5La1zIxjFtSovUvo-67" value="Identify the outcomes expected from members and sponsor" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="hAxj5La1zIxjFtSovUvo-65" vertex="1">
-          <mxGeometry y="100" width="120" height="50" as="geometry" />
+          <mxGeometry y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hAxj5La1zIxjFtSovUvo-77" value="Establish specific use case" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="hAxj5La1zIxjFtSovUvo-65" vertex="1">
-          <mxGeometry y="150" width="120" height="60" as="geometry" />
+          <mxGeometry y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hAxj5La1zIxjFtSovUvo-78" value="Software build" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-390" y="440" width="120" height="110" as="geometry">
