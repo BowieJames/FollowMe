@@ -28,7 +28,7 @@
         <mxCell id="hAxj5La1zIxjFtSovUvo-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hAxj5La1zIxjFtSovUvo-6" target="hAxj5La1zIxjFtSovUvo-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="hAxj5La1zIxjFtSovUvo-6" value="Execution" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#AFFFB6;" parent="1" vertex="1">
+        <mxCell id="hAxj5La1zIxjFtSovUvo-6" value="&lt;b&gt;Execution (Current Phase)&amp;nbsp;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#AFFFB6;" parent="1" vertex="1">
           <mxGeometry x="-480" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="hAxj5La1zIxjFtSovUvo-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="hAxj5La1zIxjFtSovUvo-8" target="hAxj5La1zIxjFtSovUvo-10" edge="1">
