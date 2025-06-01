@@ -218,7 +218,7 @@
           <mxGeometry y="90" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="4RKLR0kid2qJZf8hat2o-7" value="Integration" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-480" y="550" width="120" height="170" as="geometry">
+          <mxGeometry x="-480" y="550" width="120" height="190" as="geometry">
             <mxRectangle x="-390" y="310" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -232,7 +232,7 @@
           <mxGeometry y="90" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="E_OrtaTvKkCYNUyAw0r2-1" value="Object detection integration" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="4RKLR0kid2qJZf8hat2o-7" vertex="1">
-          <mxGeometry y="140" width="120" height="30" as="geometry" />
+          <mxGeometry y="140" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
