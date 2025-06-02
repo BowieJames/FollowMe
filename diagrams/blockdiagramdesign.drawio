@@ -25,6 +25,12 @@
         <mxCell id="Mz_VDjnScHcgVJ0fE_k6-11" value="11. POWER SYSTEM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="m4ZO5GO4-T3lixzv__rx-5">
           <mxGeometry x="66" y="50" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="Mz_VDjnScHcgVJ0fE_k6-28" value="" style="endArrow=none;html=1;rounded=0;fillColor=#F19C99;strokeColor=#F19C99;exitX=0.376;exitY=1.062;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.164;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="m4ZO5GO4-T3lixzv__rx-5" target="m4ZO5GO4-T3lixzv__rx-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="135.9999999999999" y="110.00000000000003" as="sourcePoint" />
+            <mxPoint x="156.88" y="206.28" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="m4ZO5GO4-T3lixzv__rx-6" value="FOLLOWER ROBOT" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;" parent="m4ZO5GO4-T3lixzv__rx-2" vertex="1">
           <mxGeometry x="446" y="30" width="340" height="470" as="geometry" />
         </mxCell>
