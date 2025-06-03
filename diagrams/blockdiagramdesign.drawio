@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.1" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1048" dy="663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="925" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -115,7 +115,7 @@
         <mxCell id="Mz_VDjnScHcgVJ0fE_k6-16" value="4. CONTROL&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="m4ZO5GO4-T3lixzv__rx-6" vertex="1">
           <mxGeometry x="112.5" y="120" width="95" height="57.5" as="geometry" />
         </mxCell>
-        <mxCell id="Mz_VDjnScHcgVJ0fE_k6-18" value="4. DRIVE SYSTEM&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="m4ZO5GO4-T3lixzv__rx-6" vertex="1">
+        <mxCell id="Mz_VDjnScHcgVJ0fE_k6-18" value="6. DRIVE SYSTEM&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="m4ZO5GO4-T3lixzv__rx-6" vertex="1">
           <mxGeometry x="200" y="221.25" width="117.5" height="57.5" as="geometry" />
         </mxCell>
         <mxCell id="m4ZO5GO4-T3lixzv__rx-12" value="CHANNEL" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="m4ZO5GO4-T3lixzv__rx-2" vertex="1">
