@@ -152,7 +152,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Jqt1G8l4uNWQVp_tb_sp" name="Page-2">
-    <mxGraphModel dx="786" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="925" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -205,7 +205,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PunxtM9WqN6rl1RUI9SC" name="Page-3">
-    <mxGraphModel dx="1793" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1209" dy="765" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -267,7 +267,7 @@
         <mxCell id="7p8SB0BI8z-qEqtDmS6W-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#D5E8D4;" parent="1" source="7p8SB0BI8z-qEqtDmS6W-18" target="7p8SB0BI8z-qEqtDmS6W-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7p8SB0BI8z-qEqtDmS6W-18" value="Input: Signal sent from (1)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" parent="1" vertex="1">
+        <mxCell id="7p8SB0BI8z-qEqtDmS6W-18" value="Input: Signal sent from (2)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" parent="1" vertex="1">
           <mxGeometry x="400" y="535" width="126" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7p8SB0BI8z-qEqtDmS6W-19" value="Loop: Data from (1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;" parent="1" vertex="1">
@@ -278,25 +278,25 @@
             <mxPoint x="463" y="715" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7p8SB0BI8z-qEqtDmS6W-21" value="Receive&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" parent="1" vertex="1">
+        <mxCell id="7p8SB0BI8z-qEqtDmS6W-21" value="Receive (3)&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" parent="1" vertex="1">
           <mxGeometry x="403" y="615" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7p8SB0BI8z-qEqtDmS6W-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#D5E8D4;" parent="1" source="7p8SB0BI8z-qEqtDmS6W-23" target="7p8SB0BI8z-qEqtDmS6W-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7p8SB0BI8z-qEqtDmS6W-23" value="Process and intake message, compare position&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" parent="1" vertex="1">
+        <mxCell id="7p8SB0BI8z-qEqtDmS6W-23" value="ESP32 outputs relative distance" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" parent="1" vertex="1">
           <mxGeometry x="403" y="715" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7p8SB0BI8z-qEqtDmS6W-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#D5E8D4;" parent="1" source="7p8SB0BI8z-qEqtDmS6W-25" target="7p8SB0BI8z-qEqtDmS6W-27" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7p8SB0BI8z-qEqtDmS6W-25" value="Perform operations to calculate relative distance/angle" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" parent="1" vertex="1">
+        <mxCell id="7p8SB0BI8z-qEqtDmS6W-25" value="ESP32 sends distance to main control serially" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" parent="1" vertex="1">
           <mxGeometry x="570" y="715" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7p8SB0BI8z-qEqtDmS6W-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#D5E8D4;" parent="1" source="7p8SB0BI8z-qEqtDmS6W-27" target="7p8SB0BI8z-qEqtDmS6W-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7p8SB0BI8z-qEqtDmS6W-27" value="Perform operations to calculate relative distance/angle" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" parent="1" vertex="1">
+        <mxCell id="7p8SB0BI8z-qEqtDmS6W-27" value="Perform multilateration: calculate relative position" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D5E8D4;" parent="1" vertex="1">
           <mxGeometry x="570" y="610" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="7p8SB0BI8z-qEqtDmS6W-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7p8SB0BI8z-qEqtDmS6W-29" target="7p8SB0BI8z-qEqtDmS6W-30" edge="1">
@@ -305,7 +305,7 @@
         <mxCell id="7p8SB0BI8z-qEqtDmS6W-29" value="Send Instructions to Motors&amp;nbsp;" style="whiteSpace=wrap;html=1;fillColor=#D5E8D4;" parent="1" vertex="1">
           <mxGeometry x="445" y="260" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="78ObuJb6MeBJN6zeReT4-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7p8SB0BI8z-qEqtDmS6W-30">
+        <mxCell id="78ObuJb6MeBJN6zeReT4-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="7p8SB0BI8z-qEqtDmS6W-30" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="748" y="285" as="targetPoint" />
           </mxGeometry>
@@ -327,13 +327,13 @@
         <mxCell id="7p8SB0BI8z-qEqtDmS6W-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#D5E8D4;" parent="1" source="7p8SB0BI8z-qEqtDmS6W-33" target="7p8SB0BI8z-qEqtDmS6W-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7p8SB0BI8z-qEqtDmS6W-33" value="Ouput: Generate vector" style="whiteSpace=wrap;html=1;fillColor=#D5E8D4;" parent="1" vertex="1">
+        <mxCell id="7p8SB0BI8z-qEqtDmS6W-33" value="Interpret postion/ output drive Instructions" style="whiteSpace=wrap;html=1;fillColor=#D5E8D4;" parent="1" vertex="1">
           <mxGeometry x="570" y="537.5" width="120" height="45" as="geometry" />
         </mxCell>
         <mxCell id="7p8SB0BI8z-qEqtDmS6W-34" value="4. CONTROL&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9E0A5;" parent="1" vertex="1">
           <mxGeometry x="365" y="70" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="78ObuJb6MeBJN6zeReT4-2" value="To (4) Drive System" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="78ObuJb6MeBJN6zeReT4-2" value="To (4) Drive System" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="760" y="270" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
