@@ -162,6 +162,12 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="t4mXMo3u7TvbZJGJzRXQ-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9E0A5;" parent="1" vertex="1">
+          <mxGeometry x="430" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CFCjSQsqQG2sSSGPShft-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="360" width="60" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="t4mXMo3u7TvbZJGJzRXQ-1" value="1. Interface between Transmitter &amp;amp; Receiver" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B9E0A5;" parent="1" vertex="1">
           <mxGeometry x="425" y="40" width="130" height="60" as="geometry" />
         </mxCell>
@@ -206,14 +212,14 @@
         <mxCell id="t4mXMo3u7TvbZJGJzRXQ-16" value="Receivers in known positions" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="675" y="130" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="t4mXMo3u7TvbZJGJzRXQ-18" value="Control" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9E0A5;" parent="1" vertex="1">
-          <mxGeometry x="430" y="360" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="t4mXMo3u7TvbZJGJzRXQ-21" value="Relative position &amp;amp; distance&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="555" y="340" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="t4mXMo3u7TvbZJGJzRXQ-22" value="&lt;ul data-pm-slice=&quot;3 3 []&quot; dir=&quot;ltr&quot; data-tight=&quot;true&quot; class=&quot;tight&quot;&gt;&lt;li&gt;&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;UWB Transmitter&lt;/strong&gt;: Emits periodic UWB pulses (e.g., every 20 ms) to all receivers.&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p dir=&quot;ltr&quot;&gt;&lt;strong&gt;Receivers (1 to N)&lt;/strong&gt;: Each receiver captures pulses, calculates ToF/TDoA, and computes distance. Receivers are synchronized via a clock sync mechanism (e.g., shared clock or network protocol).&lt;/p&gt;&lt;/li&gt;&lt;li&gt;&lt;p dir=&quot;ltr&quot;&gt;&lt;strong style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Central Processor&lt;/strong&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;: Runs trilateration/multilateration algorithms to compute the transmitter’s position and outputs continuous updates to an application (e.g., via MQTT or a display).&lt;/span&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="65" y="30" width="330" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="CFCjSQsqQG2sSSGPShft-2" value="&lt;div&gt;&lt;b&gt;Control&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="380" width="60" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -358,6 +364,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="yi70USWIas9GpgpN9P5N-1" value="4. CONTROL" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="365" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
