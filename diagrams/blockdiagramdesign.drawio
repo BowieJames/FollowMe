@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.1" pages="4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.1.3" pages="4">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1793" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -343,10 +343,57 @@
     </mxGraphModel>
   </diagram>
   <diagram id="f_-QSX5dmoOLrojnj0ch" name="Page-4">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1793" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YqiOTuTsnfHIhlpuktGA-7" value="CONTROL HARDWARE DIAGRAM" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="220" width="630" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="YqiOTuTsnfHIhlpuktGA-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YqiOTuTsnfHIhlpuktGA-7" source="YqiOTuTsnfHIhlpuktGA-8" target="YqiOTuTsnfHIhlpuktGA-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YqiOTuTsnfHIhlpuktGA-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YqiOTuTsnfHIhlpuktGA-7" source="YqiOTuTsnfHIhlpuktGA-8" target="YqiOTuTsnfHIhlpuktGA-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YqiOTuTsnfHIhlpuktGA-8" value="JETSON NANO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YqiOTuTsnfHIhlpuktGA-7">
+          <mxGeometry x="110" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YqiOTuTsnfHIhlpuktGA-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YqiOTuTsnfHIhlpuktGA-7" source="YqiOTuTsnfHIhlpuktGA-11" target="YqiOTuTsnfHIhlpuktGA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YqiOTuTsnfHIhlpuktGA-11" value="UWB Boards" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YqiOTuTsnfHIhlpuktGA-7">
+          <mxGeometry x="30" y="280" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YqiOTuTsnfHIhlpuktGA-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YqiOTuTsnfHIhlpuktGA-7" source="YqiOTuTsnfHIhlpuktGA-10" target="YqiOTuTsnfHIhlpuktGA-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YqiOTuTsnfHIhlpuktGA-10" value="Motor Controller" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YqiOTuTsnfHIhlpuktGA-7">
+          <mxGeometry x="310" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YqiOTuTsnfHIhlpuktGA-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YqiOTuTsnfHIhlpuktGA-7" source="YqiOTuTsnfHIhlpuktGA-9" target="YqiOTuTsnfHIhlpuktGA-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YqiOTuTsnfHIhlpuktGA-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YqiOTuTsnfHIhlpuktGA-7" source="YqiOTuTsnfHIhlpuktGA-9" target="YqiOTuTsnfHIhlpuktGA-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YqiOTuTsnfHIhlpuktGA-9" value="Servo Controller&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YqiOTuTsnfHIhlpuktGA-7">
+          <mxGeometry x="310" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YqiOTuTsnfHIhlpuktGA-22" value="Servos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YqiOTuTsnfHIhlpuktGA-7">
+          <mxGeometry x="490" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YqiOTuTsnfHIhlpuktGA-23" value="Motors" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YqiOTuTsnfHIhlpuktGA-7">
+          <mxGeometry x="490" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YqiOTuTsnfHIhlpuktGA-25" value="PWM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YqiOTuTsnfHIhlpuktGA-7">
+          <mxGeometry x="430" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YqiOTuTsnfHIhlpuktGA-26" value="PWM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YqiOTuTsnfHIhlpuktGA-7">
+          <mxGeometry x="360" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
