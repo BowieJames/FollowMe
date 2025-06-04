@@ -394,6 +394,12 @@
         <mxCell id="YqiOTuTsnfHIhlpuktGA-26" value="PWM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YqiOTuTsnfHIhlpuktGA-7">
           <mxGeometry x="360" y="170" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="YqiOTuTsnfHIhlpuktGA-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="YqiOTuTsnfHIhlpuktGA-7" source="YqiOTuTsnfHIhlpuktGA-27" target="YqiOTuTsnfHIhlpuktGA-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YqiOTuTsnfHIhlpuktGA-27" value="Sensor System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YqiOTuTsnfHIhlpuktGA-7">
+          <mxGeometry x="110" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
