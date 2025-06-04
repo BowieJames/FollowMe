@@ -158,7 +158,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Jqt1G8l4uNWQVp_tb_sp" name="Page-2">
-    <mxGraphModel dx="925" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1237" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -171,8 +171,13 @@
         <mxCell id="t4mXMo3u7TvbZJGJzRXQ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" parent="1" source="t4mXMo3u7TvbZJGJzRXQ-5" target="t4mXMo3u7TvbZJGJzRXQ-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="bKUf3cZbhh4x_0pcLfsE-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="t4mXMo3u7TvbZJGJzRXQ-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="725" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="t4mXMo3u7TvbZJGJzRXQ-5" value="Receiver 1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;" parent="1" vertex="1">
-          <mxGeometry x="665" y="180" width="120" height="60" as="geometry" />
+          <mxGeometry x="665" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t4mXMo3u7TvbZJGJzRXQ-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -186,6 +191,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="bKUf3cZbhh4x_0pcLfsE-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="t4mXMo3u7TvbZJGJzRXQ-11" target="t4mXMo3u7TvbZJGJzRXQ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="t4mXMo3u7TvbZJGJzRXQ-11" value="Receiver 2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#99CCFF;" parent="1" vertex="1">
           <mxGeometry x="665" y="260" width="120" height="60" as="geometry" />
         </mxCell>
@@ -196,7 +204,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="t4mXMo3u7TvbZJGJzRXQ-16" value="Receivers in known positions" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="675" y="140" width="100" height="30" as="geometry" />
+          <mxGeometry x="675" y="130" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="t4mXMo3u7TvbZJGJzRXQ-18" value="Control" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B9E0A5;" parent="1" vertex="1">
           <mxGeometry x="430" y="360" width="120" height="60" as="geometry" />
@@ -346,63 +354,10 @@
     </mxGraphModel>
   </diagram>
   <diagram id="f_-QSX5dmoOLrojnj0ch" name="Page-4">
-    <mxGraphModel dx="1793" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1237" dy="610" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="YqiOTuTsnfHIhlpuktGA-7" value="CONTROL HARDWARE DIAGRAM" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="220" width="630" height="470" as="geometry" />
-        </mxCell>
-        <mxCell id="YqiOTuTsnfHIhlpuktGA-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YqiOTuTsnfHIhlpuktGA-7" source="YqiOTuTsnfHIhlpuktGA-8" target="YqiOTuTsnfHIhlpuktGA-9">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="YqiOTuTsnfHIhlpuktGA-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YqiOTuTsnfHIhlpuktGA-7" source="YqiOTuTsnfHIhlpuktGA-8" target="YqiOTuTsnfHIhlpuktGA-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="YqiOTuTsnfHIhlpuktGA-8" value="JETSON NANO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YqiOTuTsnfHIhlpuktGA-7">
-          <mxGeometry x="110" y="50" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YqiOTuTsnfHIhlpuktGA-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YqiOTuTsnfHIhlpuktGA-7" source="YqiOTuTsnfHIhlpuktGA-11" target="YqiOTuTsnfHIhlpuktGA-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="YqiOTuTsnfHIhlpuktGA-11" value="UWB Boards" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YqiOTuTsnfHIhlpuktGA-7">
-          <mxGeometry x="30" y="280" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YqiOTuTsnfHIhlpuktGA-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YqiOTuTsnfHIhlpuktGA-7" source="YqiOTuTsnfHIhlpuktGA-10" target="YqiOTuTsnfHIhlpuktGA-23">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="480" y="300" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="YqiOTuTsnfHIhlpuktGA-10" value="Motor Controller" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YqiOTuTsnfHIhlpuktGA-7">
-          <mxGeometry x="310" y="270" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YqiOTuTsnfHIhlpuktGA-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="YqiOTuTsnfHIhlpuktGA-7" source="YqiOTuTsnfHIhlpuktGA-9" target="YqiOTuTsnfHIhlpuktGA-10">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="YqiOTuTsnfHIhlpuktGA-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="YqiOTuTsnfHIhlpuktGA-7" source="YqiOTuTsnfHIhlpuktGA-9" target="YqiOTuTsnfHIhlpuktGA-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="YqiOTuTsnfHIhlpuktGA-9" value="Servo Controller&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YqiOTuTsnfHIhlpuktGA-7">
-          <mxGeometry x="310" y="50" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YqiOTuTsnfHIhlpuktGA-22" value="Servos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YqiOTuTsnfHIhlpuktGA-7">
-          <mxGeometry x="490" y="50" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YqiOTuTsnfHIhlpuktGA-23" value="Motors" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YqiOTuTsnfHIhlpuktGA-7">
-          <mxGeometry x="490" y="270" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="YqiOTuTsnfHIhlpuktGA-25" value="PWM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YqiOTuTsnfHIhlpuktGA-7">
-          <mxGeometry x="430" y="50" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="YqiOTuTsnfHIhlpuktGA-26" value="PWM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="YqiOTuTsnfHIhlpuktGA-7">
-          <mxGeometry x="360" y="170" width="60" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="YqiOTuTsnfHIhlpuktGA-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="YqiOTuTsnfHIhlpuktGA-7" source="YqiOTuTsnfHIhlpuktGA-27" target="YqiOTuTsnfHIhlpuktGA-8">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="YqiOTuTsnfHIhlpuktGA-27" value="Sensor System" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="YqiOTuTsnfHIhlpuktGA-7">
-          <mxGeometry x="110" y="190" width="120" height="60" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
