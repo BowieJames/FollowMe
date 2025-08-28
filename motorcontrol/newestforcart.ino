@@ -1,0 +1,81 @@
+#include <Servo.h>
+
+Servo servo1;
+Servo servo2;
+
+int currentAngle = 90; // Middle position
+int targetspeed;
+int direction;
+int distance;
+// Motor driver pins
+const int ENA = 9;
+const int ENB = 10;
+const int IN1 = 4;
+const int IN2 = 5;
+const int IN3 = 6;
+const int IN4 = 7;
+const float TOLERANCE = 2.0; // Deadband for servo angle (degrees)
+
+void setup() {
+  servo1.attach(11);
+  servo2.attach(3);
+  servo1.write(currentAngle);
+  servo2.write(currentAngle);
+
+  pinMode(IN1, OUTPUT);
+  pinMode(IN2, OUTPUT);
+  pinMode(IN3, OUTPUT);
+  pinMode(IN4, OUTPUT);
+  pinMode(ENA, OUTPUT);
+  pinMode(ENB, OUTPUT);
+}
+
+void driveline(int targetspeed, int direction) {
+  // Steering with deadband
+  if (abs(currentAngle - direction) > TOLERANCE) {
+    currentAngle = direction; // Update currentAngle
+    servo1.write(direction);
+    servo2.write(direction);
+  }
+
+  // Motor Direction
+  if (targetspeed > 0) {
+    digitalWrite(IN1, LOW);
+    digitalWrite(IN2, HIGH);
+    digitalWrite(IN3, HIGH);
+    digitalWrite(IN4, LOW);
+  } else if (targetspeed < 0) {
+    digitalWrite(IN1, HIGH);
+    digitalWrite(IN2, LOW);
+    digitalWrite(IN3, LOW);
+    digitalWrite(IN4, HIGH);
+  } else {
+    digitalWrite(IN1, LOW);
+    digitalWrite(IN2, LOW);
+    digitalWrite(IN3, LOW);
+    digitalWrite(IN4, LOW);
+  }
+
+  // Set speed directly
+  analogWrite(ENA, abs(-1*targetspeed));
+  analogWrite(ENB, abs(-1*targetspeed));
+}
+
+int distos(int distance) {
+  int speed;
+  if (distance <= 1) {
+    speed = 0;
+  } else if (distance <= 5) {
+    speed = 100;
+  } else {
+    speed = 255;
+  }
+  return speed;
+}
+
+void loop() {
+  // UWB distance to speed
+  targetspeed = distos(distance);
+  driveline(-255, 90); // Speed, angle
+  delay(100); // Run every 100ms
+}
