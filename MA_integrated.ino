@@ -147,6 +147,7 @@ void setup() {
 
   // I²C slave setup
   Wire.begin((uint8_t)I2C_SLAVE_ADDR);  
+  Wire.setClock(100000);
   Wire.onRequest(onRequestEvent);  
 
   // UARTs from slaves
@@ -227,6 +228,7 @@ void inactiveDevice(DW1000Device *device) {
 
 // ================== I²C onRequest handler ===================
 void onRequestEvent() {
+  Serial.print("Request received");
   Wire.write((byte*)&angle, sizeof(float));
   Wire.write((byte*)&distance, sizeof(float));
 }
